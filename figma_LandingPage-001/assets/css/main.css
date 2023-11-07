@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 95%;
+    margin: auto;
+}
+
+/* NAV STYLING */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 25px 0;
+}
+
+.menu-icon{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.cart{
+    display: flex;
+}
+
+.cart-login{
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
