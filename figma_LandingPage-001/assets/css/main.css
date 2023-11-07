@@ -9,6 +9,10 @@ body{
 }
 
 header{
+    background-color: #F3F3F3;
+}
+
+.nav-hero_container{
     width: 95%;
     margin: auto;
 }
