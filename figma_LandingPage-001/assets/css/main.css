@@ -183,3 +183,50 @@ main{
 .extra-padding{
     margin-top: 37px;
 }
+
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1024px){
+    
+    /* HERO STYLING */
+    .prdoduct-details{
+        width: 36%;
+    }
+    
+    /* MAIN STYLING */
+    main{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 912px){
+   
+    /* MAIN STYLING */
+    main{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 768px){
+    .product-card{
+        width: 45%;
+    }
+}
+
+/* @media screen and (max-width: 540px){
+    .product-card{
+        width: 47%;
+        margin-bottom: 60px;
+    }
+
+    .prdoduct-details{
+        width: 50%;
+    }
+
+    .fashion-travel{
+        width: 50%;
+    }
+} */
+
+/* RESPONSIVENESS STILL IN PROGRESS */
