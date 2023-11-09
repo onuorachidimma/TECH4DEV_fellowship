@@ -115,3 +115,68 @@ a{
 .arrow-down{
     margin-right: 5px;
 }
+
+/* MAIN STYLING */
+main{
+    width: 60%;
+    margin: auto;
+}
+
+.fashion-travel{
+    display: flex;
+    justify-content: center;
+    margin: 64px 0 102px 0;
+}
+
+.fashion-travel p{
+    margin-right: 21px;
+}
+
+/* PRODUCT CARD */
+.product-card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card{
+    background-color: #F3F3F3;
+    width: 30%;
+    margin-bottom: 102px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.cartIcon_container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-icon{
+    padding: 10px;
+}
+
+.image_container{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 33px;
+}
+
+.image_container img{
+    height: 204px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-card h3{
+    width: 70%;
+    margin: auto;
+}
+
+.product_price{
+    margin-top: 11px;
+}
+
+.extra-padding{
+    margin-top: 37px;
+}
