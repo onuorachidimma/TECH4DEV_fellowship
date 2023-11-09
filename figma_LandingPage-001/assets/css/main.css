@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    max-width: 1600px;
 }
 
 header{
@@ -125,8 +124,12 @@ main{
 
 .fashion-travel{
     display: flex;
-    justify-content: center;
-    margin: 64px 0 102px 0;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 102px;
 }
 
 .fashion-travel p{
