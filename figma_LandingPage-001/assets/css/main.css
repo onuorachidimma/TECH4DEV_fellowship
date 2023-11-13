@@ -205,14 +205,14 @@ main{
 
 /* RESPONSIVENESS */
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     
-    /* HERO STYLING */
+    HERO STYLING
     .prdoduct-details{
         width: 36%;
     }
     
-    /* MAIN STYLING */
+    MAIN STYLING
     main{
         width: 75%;
     }
@@ -220,7 +220,7 @@ main{
 
 @media screen and (max-width: 912px){
    
-    /* MAIN STYLING */
+    MAIN STYLING
     main{
         width: 90%;
     }
@@ -230,7 +230,7 @@ main{
     .product-card{
         width: 45%;
     }
-}
+} */
 
 /* @media screen and (max-width: 540px){
     .product-card{
@@ -248,3 +248,30 @@ main{
 } */
 
 /* RESPONSIVENESS STILL IN PROGRESS */
+
+@media (max-width: 576px){
+
+    /* MAIN */
+    main{
+        width: 80%;
+    }
+
+    .fashion-travel{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fashion-travel > a{
+        line-height: 2rem;
+    }
+
+    .product-card{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .belt{
+        object-fit: contain;
+    }
+}
