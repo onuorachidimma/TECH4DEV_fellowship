@@ -255,7 +255,7 @@ main{
     .cart{
         display: none;
     }
-    
+
     nav{
         flex-direction: row-reverse;
     }
@@ -270,7 +270,8 @@ main{
     }
 }
 
-@media (max-width: 576px){
+
+@media (max-width: 768px){
 
     /* NAV */
     .menuIcon, .logo-container, .cart{
@@ -334,5 +335,12 @@ main{
 
     .belt{
         object-fit: contain;
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px){
+    .belt{
+        width: 100%;
     }
 }
