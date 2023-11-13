@@ -249,7 +249,22 @@ main{
 
 /* RESPONSIVENESS STILL IN PROGRESS */
 
+@media (max-width: 460px){
+    .cart{
+        display: none;
+    }
+    nav{
+        flex-direction: row-reverse;
+    }
+}
+
 @media (max-width: 576px){
+
+    /* NAV */
+
+    .menuIcon, .logo-container{
+        width: 20%;
+    }
 
     /* MAIN */
     main{
