@@ -19,7 +19,6 @@ header{
 }
 
 /* NAV STYLING */
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -47,7 +46,6 @@ a{
 }
 
 /* HERO STYLING */
-
 .hero{
     margin-top: 152px;
 }
@@ -235,7 +233,6 @@ main{
     }
 
     /* PRODUCT CARD */
-
     .product-card{
         width: 28%;
         margin-bottom: 85px;
@@ -255,7 +252,6 @@ main{
     }
 
     /* PRODUCT CARD */
-
     .product-card{
         background-color: #F3F3F3;
         width: 45%;
@@ -358,7 +354,6 @@ main{
 @media (max-width: 460px){
 
     /* NAV/HERO */
-
     main{
         width: 100%;
     }
