@@ -63,11 +63,11 @@ input[type=password]:invalid{
     color: red;
 }
 
-.eye1{
+#eye1{
     display: none;
 }
 
-.eye2, .eye1{
+#eye2, #eye1{
     position: absolute;
     right: 0;
     bottom: 10px;
