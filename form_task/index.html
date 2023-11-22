@@ -5,16 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script src="https://kit.fontawesome.com/ea26a1f5e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <form action="">
-        <div>
-            <label for="">Username</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="">Password</label>
-            <input type="text">
+        
+        <div class="label-input_container">
+
+            <div class="logo-container">
+                <img src="./assets/images/logo.png" alt="">
+            </div>
+
+            <div class="label-input label-input1">
+                <label for="first-name">Username</label>
+                <input type="email" name="first-name" required>
+            </div>
+
+            <div class="label-input label-input2">
+                <label for="password">Password</label>
+                <input type="password" name="password" required minlength="8" maxlength="15">
+                <button class="eye1" type="button">
+                    <i class="fa-regular fa-eye eye-open"></i>
+                </button>
+                <button class="eye2" type="button">
+                    <i class="fa-regular fa-eye-slash eye-close"></i>
+                </button>
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+
+            <div class="no-account">
+                <p>Don't have an account? <a href="#" class="signup">Sign-up</a></p>
+            </div>
         </div>
         
     </form>  
