@@ -83,9 +83,19 @@ input[type=email]:invalid{
     margin-top: 2rem;
     padding: 1rem 0;
     color: #cc6d3d;
+    border: none;
+    background-color: #efefef;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn{
+    from {background-color: #dd5a19}
+    from {color: white}
 }
 
 .no-account{

@@ -18,4 +18,3 @@ function toggleEye(){
 
 CloseEye.addEventListener('click', toggleEye)
 OpenEye.addEventListener('click', toggleEye)
-
