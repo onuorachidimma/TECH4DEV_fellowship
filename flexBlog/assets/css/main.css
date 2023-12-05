@@ -79,6 +79,7 @@ main{
     border-top: 2px solid #080ba4;
     border-bottom: 2px solid #080ba4;
     padding: 4rem 1rem;
+    margin-bottom: 4rem;
 }
 
 .sobre{
@@ -102,7 +103,7 @@ main{
 }
 
 .Sobre{
-    font-size: 3rem;
+    font-size: 2.7rem;
     margin-bottom: 2rem;
 }
 
@@ -111,4 +112,84 @@ main{
     text-align: justify;
     font-size: 1.2rem;
     color: #222221;
+}
+
+/* MAIN2 */
+
+.main2{
+    width: 70%;
+    margin: auto;
+    /* position: relative; */
+    /* height: 78vh; */
+    border: 2px solid red;
+}
+
+.productos{
+    padding-left: 5rem;
+}
+
+.main2_images{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+}
+
+.purple, .pink, .blue{
+    /* width: 32%; */
+    
+}
+
+.purple{
+    height: 30vh;
+    /* position: absolute;
+    top: 11rem;
+    left: 0;
+    bottom: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid red;
+    
+    
+    
+}
+
+.pink{
+    height: 42vh;
+    /* position: absolute;
+    right: 34%;
+    top: 5rem; */
+}
+
+.blue{
+    height: 35vh;
+    /* position: absolute;
+    right: 0;
+    bottom: 11.5rem; */
+}
+
+.purple img, .pink img, .blue img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.color{
+    background-color: #f7f7f7;
+    padding: 4rem 0 4rem 1rem;
+    color: #a5a4a4;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.colorPurple{
+    border-top: 8px solid #ae83f3;
+}
+.colorPink{
+    border-top: 8px solid #fb2a61;
+}
+.colorBlue{
+    border-top: 8px solid #66e9db;
 }
