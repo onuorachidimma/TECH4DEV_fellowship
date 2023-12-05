@@ -13,6 +13,7 @@ body{
 
 nav{
     color: white;
+    margin-bottom: 3rem;
 }
 
 ul{
@@ -57,4 +58,57 @@ nav a{
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 2px;
+}
+
+/* MAIN */
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.novos, .Sobre{
+    font-size: 1.7rem;
+    color: #222221;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    border-top: 2px solid #080ba4;
+    border-bottom: 2px solid #080ba4;
+    padding: 4rem 1rem;
+}
+
+.sobre{
+    width: 50%;
+}
+
+.sobreImg1{
+    width: 23%;
+    height: 65vh;
+}
+
+.sobreImg2{
+    width: 23%;
+    height: 33vh;
+}
+
+.sobreImg1 img, .sobreImg2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Sobre{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sobre p{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #222221;
 }
