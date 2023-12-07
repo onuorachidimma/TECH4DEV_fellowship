@@ -170,23 +170,39 @@ main{
 /* MAIN TWO */
 .mainTwo{
     background-color: #f7f7f7;
+    padding: 5rem 0;
+}
+
+.mainTwo-container{
     width: 80%;
     margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1rem;
 }
 
 .price-card{
-    width: 28%;
-    border: 4px solid white;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .cobre{
     text-align: center;
     color: #a5a4a4;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 2px;
     border-bottom: 4px solid white;
     padding-bottom: 10px;
+}
+
+.price1, .price2, .price3{
+    padding: 3rem;
+    border: 4px solid white;
+}
+
+.cobre, .prata, .ouro{
+    padding-top: 1.6rem;
 }
 
 sup{
@@ -195,7 +211,7 @@ sup{
 }
 
 .price{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
     color: #1f2021;
@@ -206,8 +222,8 @@ sup{
 
 span{
     display: inline-block;
-    height: 4px;
-    width: 4px;
+    height: 5px;
+    width: 5px;
     border-radius: 100px;
     background-color: #2c70ff;
 }
@@ -217,7 +233,9 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 8px;
+    padding-bottom: 14px;
+    color: #817e7d;
+    font-weight: bold;
 }
 
 .comprar{
@@ -229,5 +247,7 @@ span{
     font-size: 1.6rem;
     border: 3px solid #131116;
     color: #141b20;
-    padding: 10px 0;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
