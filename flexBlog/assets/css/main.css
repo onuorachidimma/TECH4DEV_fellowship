@@ -62,7 +62,7 @@ nav a{
 main{
     width: 70%;
     margin: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .novos, .Sobre{
@@ -170,7 +170,8 @@ main{
 /* MAIN TWO */
 .mainTwo{
     background-color: #f7f7f7;
-    padding: 5rem 0;
+    padding: 4rem 0;
+    margin-bottom: 5rem;
 }
 
 .mainTwo-container{
@@ -220,10 +221,10 @@ sup{
     margin-bottom: 10px;
 }
 
-span{
+.mainTwo-li span{
     display: inline-block;
-    height: 5px;
-    width: 5px;
+    height: 6px;
+    width: 6px;
     border-radius: 100px;
     background-color: #2c70ff;
 }
@@ -250,4 +251,49 @@ span{
     padding: 20px 0;
     letter-spacing: 2px;
     cursor: pointer;
+}
+
+/* MAIN THREE */
+
+/* .mainThree.mainThreeFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+.mainThree{
+    width: 70%;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    border: 1px solid red;
+}
+
+.Qualidade{
+    width: 31%;
+}
+
+.Qualidade span{
+    width: 8px;
+    height: 30px;
+    display: inline-block;
+}
+
+.flex-span{
+    display: flex;
+}
+
+.Qualidade h2{
+    color: #a5a4a4;
+    font-size: 2rem;
+    padding-left: 8px;
+    margin-bottom: 1rem;
+}
+
+.Qualidade p{
+    color: #817e7d;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
 }
