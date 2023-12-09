@@ -28,5 +28,3 @@ Create a basic To-Do List application using HTML, CSS, and vanilla JavaScript. T
 - Implement additional features, such as marking tasks as completed or editing task names.
 - Add animations or transitions to make the user experience more engaging.
 - Ensure the application is responsive and works well on different screen sizes.
-
-Like: 3
