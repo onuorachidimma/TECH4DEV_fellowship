@@ -43,28 +43,17 @@ const qualityCard = document.querySelector(".Qualidade");
 const addImages = (color, title, text) => {
     for (let i = 0; i < cardList.length; i++) {
         const div = document.createElement("div");
+        div.classList.add("dynamic-div");
         div.innerHTML = `
         <div class="flex-span">
-            <span style="background-color: ${cardList[i].spanColor}"></span><h2>${cardList[i].qualityTitle}</h2>
+            <div class="col" style="background-color: ${cardList[i].spanColor}"></div>
+            <h2>${cardList[i].qualityTitle}</h2>
         </div>
         <p>${cardList[i].content}</p>`;
 
         qualityCard.appendChild(div);
     }
 }; 
-
-const mainThree = document.querySelector(".mainThree");
-console.log("i am running");
-if (mainThree) {
-    mainThree.style.display = "flex";
-    console.log("mainThree is set to display:flex");
-}
-
-// const mainThree = document.querySelector(".mainThree");
-//     if (mainThree) {
-//         mainThree.classList.add("mainThreeFlex");
-//     }
-
 
 addImages();
 
