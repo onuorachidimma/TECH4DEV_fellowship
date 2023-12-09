@@ -2,37 +2,37 @@ const cardList =[
     {
         spanColor: "#ad82fd",
         qualityTitle: "Inteligente",
-        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus!",
+        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus! Aspernatur est rem!",
     },
 
     {
         spanColor: "#f92855",
         qualityTitle: "Compacto",
-        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus!",
+        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus! Aspernatur est rem!",
     },
 
     {
         spanColor: "#66d9eb",
         qualityTitle: "Economico",
-        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus!",
+        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus! Aspernatur est rem!",
     },
 
     {
         spanColor: "#ad82fd",
         qualityTitle: "Transparente",
-        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus!",
+        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus! Aspernatur est rem!",
     },
 
     {
         spanColor: "#f92855",
         qualityTitle: "Opaco",
-        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus!",
+        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus! Aspernatur est rem!",
     },
 
     {
         spanColor: "#66d9eb",
         qualityTitle: "Sustentavel",
-        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus!",
+        content: "O Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est rem expedita a iusto et doloremque! Consequuntur, ex necessitatibus! Aspernatur est rem!",
     },
 ]
 

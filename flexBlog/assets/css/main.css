@@ -62,7 +62,7 @@ nav a{
 main{
     width: 70%;
     margin: auto;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
 }
 
 .novos, .Sobre{
@@ -114,6 +114,7 @@ main{
 
 /* MAIN2 */
 .productos{
+    padding-top: 3rem;
     padding-left: 5rem;
 }
 
@@ -171,7 +172,7 @@ main{
 .mainTwo{
     background-color: #f7f7f7;
     padding: 4rem 0;
-    margin-bottom: 5rem;
+    margin-top: 4rem;
 }
 
 .mainTwo-container{
@@ -254,17 +255,20 @@ sup{
 }
 
 /* DYNAMIC DIV */
+
 .Qualidade{
     width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 5rem;
+    
 }
 
 .dynamic-div{
-    width: 31%;
-    margin-bottom: 2rem;
+    width: 32%;
+    margin-bottom: 5rem;
 }
 
 .col{
@@ -282,12 +286,14 @@ sup{
     font-size: 2rem;
     padding-left: 8px;
     margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 
 .Qualidade p{
     color: #817e7d;
     font-weight: bold;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 /* MAIN FOUR */
