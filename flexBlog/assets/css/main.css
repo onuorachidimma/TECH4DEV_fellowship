@@ -531,6 +531,9 @@ footer p{
     }
 
     /* MAIN TWO */
+    .price1, .price2, .price3{
+        padding: 1rem;
+    }
     .comprar{
         font-size: 1.4rem;
         padding: 16px 0;
@@ -549,5 +552,34 @@ footer p{
     /* FOOTER */
     footer p{
         font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    /* MAIN TWO */
+    .mainTwo-container{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+    
+    .price-card{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    /* MAIN FOUR */
+    .newsContainer{
+        flex-wrap: wrap;
+    }
+
+    form{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* FOOTER */
+    footer p{
+        font-size: 1.5rem;
+        padding: 3rem 0;
     }
 }
