@@ -9,6 +9,16 @@ body{
     position: relative;
 }
 
+.modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    background-color: rgba(158, 148, 158, 0.4);
+}
+
 /* NAV BAR */
 nav{
     color: white;

@@ -60,15 +60,27 @@ addImages();
 const sideBar = document.querySelector(".side-bar");
 const closeBar = document.querySelector(".menu-close")
 const menuIcon = document.querySelector(".menu-icon")
+const openModal = document.querySelector(".modal")
+const Body = document.querySelector(".all")
 
 const closeSidebar = () => {
     sideBar.style.display = "none"
+    openModal.style.display = "none"
 }
 
-const showMenuIcon = () => {
+const openSidebar = () => {
     sideBar.style.display = "block"
+    openModal.style.display = 'block'
 }
 
-closeBar.addEventListener('click', closeSidebar);
-menuIcon.addEventListener('click', showMenuIcon);
+// const closeModal = () => {
+//     sideBar.style.display = "none"
+//     closeSidebar();
+// }
+
+
+
+sideBar.addEventListener('click', closeSidebar);
+menuIcon.addEventListener('click', openSidebar);
+// Body.addEventListener('click', closeModal);
 
