@@ -6,12 +6,14 @@
 
 body{
     font-family: 'ABeeZee', sans-serif;
+    position: relative;
 }
 
 /* NAV BAR */
 nav{
     color: white;
     margin-bottom: 3rem;
+    
 }
 
 .nav-li{
@@ -56,6 +58,57 @@ nav a{
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 2px;
+}
+
+/* MENU iCON*/
+.menu-icon{
+    display: none;
+}
+
+.menu{
+    font-size: 2rem;
+    color: white;
+}
+
+/* SIDE BAR */
+.side-bar{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #f7f7f7;
+    width: 25%;
+}
+
+.menu-close{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2rem;
+    color: #222221;
+    font-size: 2rem;
+}
+
+.sidebar-li{
+    padding: 0 3rem;
+}
+
+.sidebar-li li{
+    color: #222221;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-bottom: 4px solid white;
+    transition: font-size 0.3s, background-color 0.3s, border-bottom 0.3s;
+}
+
+.sidebar-li li:hover{
+    background-color: #c0b2b2;
+    font-size: 1.5rem;
+    border-bottom-color: #978989;
 }
 
 /* MAIN */
