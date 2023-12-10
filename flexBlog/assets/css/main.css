@@ -428,7 +428,7 @@ footer p{
 @media screen and (max-width: 1024px){
 
     /* NAV BAR */
-    .nav-li, main, .newsContainer{
+    .nav-li, main, .newsContainer, .Qualidade{
         width: 80%;
     }
 
@@ -451,7 +451,7 @@ footer p{
 
     /* MAIN2 */
     .productos{
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
 
     /* MAIN TWO */
@@ -463,11 +463,6 @@ footer p{
         padding: 3rem 2rem;
     }
 
-    /* DYNAMIC DIV */
-    .Qualidade{
-        width: 80%;
-    }
-
     /* MAIN FOUR */
     form{
         width: 60%;
@@ -475,6 +470,31 @@ footer p{
 
     form button{
         font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 912px){
+
+    .nav-li, main, .newsContainer, .Qualidade{
+        width: 90%;
+    }
+
+    .sobreImg1{
+        height: 60vh;
+    }
+
+    .sobreImg2{
+        height: 30vh;
+    }
+
+    /* DYNAMIC DIV */
+    .Qualidade h2{
+        font-size: 1.8rem;
+    }
+
+    /* FOOTER */
+    footer p{
+        margin: 0 10%;
     }
 }
 
