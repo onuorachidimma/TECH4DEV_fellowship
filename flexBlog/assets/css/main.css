@@ -181,7 +181,7 @@ main{
 
 .purple, .pink, .blue{
     width: 32.5%;
-    /* height: 80vh; */
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -581,5 +581,64 @@ footer p{
     footer p{
         font-size: 1.5rem;
         padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    /* SIDE BAR */
+    .side-bar{
+        width: 60%;
+    }
+
+    .novos{
+        font-size: 1.3rem;
+    }
+
+    /* MAIN2 */
+    .main2{
+        width: 80%;
+        margin: auto;
+    }
+    .main2_images{
+        flex-wrap: wrap;
+    }
+    
+    .purple, .pink, .blue{
+        width: 100%;
+        height: 70vh;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .purple img, .pink img, .blue img{
+        height: 50%;
+    }
+
+    /* MAIN TWO */
+    .mainTwo{
+        margin-top: 0;
+    }
+
+    /* DYNAMIC DIV */
+    .dynamic-div{
+        width: 80%;
+        margin-left: 2rem;
+        text-align: justify;
+    }
+
+    /* MAIN FOUR */
+    form button{
+        font-size: 1.2rem;
+    }
+
+    form input{
+        font-size: 1rem;
+    }
+
+    /* FOOTER */
+    footer p{
+        font-size: 1rem;
+        padding: 2rem 0;
     }
 }
