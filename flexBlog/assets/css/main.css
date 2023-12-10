@@ -130,7 +130,7 @@ main{
     border-top: 2px solid #080ba4;
     border-bottom: 2px solid #080ba4;
     padding: 4rem 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .sobre{
@@ -167,14 +167,13 @@ main{
 
 /* MAIN2 */
 .productos{
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 5rem;
 }
 
 .main2_images{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 .purple, .pink, .blue{
