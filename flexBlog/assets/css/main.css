@@ -642,3 +642,21 @@ footer p{
         padding: 2rem 0;
     }
 }
+
+@media screen and (max-width: 375px){
+   
+    /* SIDE BAR */
+    .side-bar{
+        width: 100%;
+    }
+
+    /* MAIN FOUR */
+    form button{
+        font-size: 1rem;
+    }
+
+    /* FOOTER */
+    footer p{
+        font-size: 0.7rem;
+    }
+}
