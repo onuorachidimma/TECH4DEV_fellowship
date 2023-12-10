@@ -421,3 +421,20 @@ footer p{
     font-size: 2rem;
     font-weight: 600;
 }
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 768px) {
+    .nav1{
+        display: none;
+    }
+    
+    .options{
+        display: none;
+    }
+
+    .menu-icon{
+        display: flex;
+        align-items: center;
+    }
+    
+}

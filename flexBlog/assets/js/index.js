@@ -57,4 +57,18 @@ const addImages = (color, title, text) => {
 
 addImages();
 
+const sideBar = document.querySelector(".side-bar");
+const closeBar = document.querySelector(".menu-close")
+const menuIcon = document.querySelector(".menu-icon")
+
+const closeSidebar = () => {
+    sideBar.style.display = "none"
+}
+
+const showMenuIcon = () => {
+    sideBar.style.display = "block"
+}
+
+closeBar.addEventListener('click', closeSidebar);
+menuIcon.addEventListener('click', showMenuIcon);
 
