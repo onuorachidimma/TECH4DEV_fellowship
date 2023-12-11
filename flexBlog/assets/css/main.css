@@ -200,6 +200,11 @@ main{
 .purple img, .pink img, .blue img{
     width: 100%;
     object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.purple img:hover, .pink img:hover, .blue img:hover{
+    transform: scale(1.05);
 }
 
 .purple img{
@@ -318,6 +323,11 @@ sup{
     padding: 20px 0;
     letter-spacing: 2px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comprar:hover{
+    background-color: #c4bfbe;
 }
 
 /* DYNAMIC DIV */
