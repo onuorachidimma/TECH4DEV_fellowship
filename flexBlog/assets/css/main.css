@@ -670,13 +670,55 @@ footer p{
         width: 100%;
     }
 
+    .menu{
+        font-size: 1.6rem;
+    }
+
+    .companyName{
+        font-size: 1.6rem;
+    }
+
+    .novos{
+        font-size: 1.2rem;
+    }
+
+    .Sobre, .productos{
+        font-size: 2.3rem;
+    }
+
+    .sobre p{
+        font-size: 1rem;
+    }
+
+    .color, .cobre, .price{
+        font-size: 2rem;
+    }
+    
+    .comprar{
+        font-size: 1.2rem;
+        padding: 12px 0;
+    }
+
+    /* DYNAMIC DIV */
+    .Qualidade p{
+        font-size: 1rem;
+    }
+
     /* MAIN FOUR */
     form button{
         font-size: 1rem;
     }
 
     /* FOOTER */
+
+    .newsletter h2{
+        font-size: 2rem;
+    }
     footer p{
         font-size: 0.7rem;
+    }
+
+    .mainTwo{
+        padding: 2rem 0;
     }
 }
